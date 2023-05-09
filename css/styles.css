@@ -1,0 +1,197 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+:root {
+  --Dark: #2e2f42;
+  --Primary-Brand: #4d5ae5;
+  --Light: #f4f4fd;
+  --Accent: #e7e9fc;
+  --Text: #434455;
+  --Pressed-State: #404bbf;
+}
+
+/* цвет основного текста  NAVY BLUE color: #2E2F42; */
+/* цвет вторичного текста  SLATE   #434455 */
+/* Веб цвет IRIS   #4D5AE5 */
+/* CLOUD   #F4F4FD */
+/* вторичный цвет фона CORNFLOWER   #E7E9FC */
+/* цвет OCEAN   #404BBF */
+
+/*--------- navigation -------*/
+.logo {
+  color: var(--Primary-Brand);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo.list {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  font-family: "Roboto",
+    sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
+  list-style: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--Pressed-State);
+}
+
+
+
+/*---------- Adress -------*/
+
+.adress-list {
+  font-family: "Roboto",
+    sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+  list-style: none;
+}
+
+.adress {
+  font-style: normal;
+}
+
+.logo-web {
+  color: var(--Dark);
+}
+
+
+/*--------- Hero ----------*/
+
+.hero {
+  background-color: var(--Dark);
+}
+
+.hero-header {
+  font-family: "Roboto",
+    sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/*-------- Section 1------- */
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
+}
+
+.benefits-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+}
+
+/*------- Section 2 ----------*/
+
+.duing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--Dark);
+}
+
+/*------- Section 3 -----------*/
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-span {
+  color: var(--Light);
+}
+
+
+/*----------- Portfolio main ----------*/
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--Primary-Brand);
+  background-color: var(--Light);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--Pressed-State);
+
+}
+
+/* шрифты Roboto 400, Roboto 500, Roboto 700,  Raleway 800 */
