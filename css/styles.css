@@ -4,6 +4,15 @@ body {
   color: #434455;
 }
 
+:root {
+  --Dark: #2e2f42;
+  --Primary-Brand: #4d5ae5;
+  --Light: #f4f4fd;
+  --Accent: #e7e9fc;
+  --Text: #434455;
+  --Pressed-State: #404bbf;
+}
+
 p,
 h1,
 h2,
@@ -23,33 +32,6 @@ ol {
 
 img {
   display: block;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-:root {
-  --Dark: #2e2f42;
-  --Primary-Brand: #4d5ae5;
-  --Light: #f4f4fd;
-  --Accent: #e7e9fc;
-  --Text: #434455;
-  --Pressed-State: #404bbf;
 }
 
 /* цвет основного текста  NAVY BLUE color: #2E2F42; */
@@ -103,14 +85,10 @@ img {
 /*---------- Adress -------*/
 
 .adress-list {
-  font-family: "Roboto",
-    sans-serif;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Text);
-  list-style: none;
 }
 
 .adress {
@@ -166,13 +144,15 @@ img {
   color: var(--Dark);
 }
 
+
 .benefits-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Text);
 }
+
+
 
 /*------- Section 2 ----------*/
 
@@ -188,12 +168,23 @@ img {
 
 /*------- Section 3 -----------*/
 
+
 .section-team {
   background-color: #f4f4fd;
 }
 
 .team-list {
   background-color: #ffffff;
+}
+
+.team-header-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
 }
 
 .team-title {
@@ -204,12 +195,28 @@ img {
   color: var(--Dark);
 }
 
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+}
+
+
+/* ----------------footer------------ */
 .footer {
   background-color: #2e2f42;
 }
 
 .footer-span {
   color: var(--Light);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 
@@ -231,6 +238,13 @@ img {
   color: #ffffff;
   background-color: var(--Pressed-State);
 
+}
+
+.benefits-text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
 }
 
 /* шрифты Roboto 400, Roboto 500, Roboto 700,  Raleway 800 */
