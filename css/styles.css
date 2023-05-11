@@ -4,15 +4,6 @@ body {
   color: #434455;
 }
 
-:root {
-  --Dark: #2e2f42;
-  --Primary-Brand: #4d5ae5;
-  --Light: #f4f4fd;
-  --Accent: #e7e9fc;
-  --Text: #434455;
-  --Pressed-State: #404bbf;
-}
-
 p,
 h1,
 h2,
@@ -32,6 +23,15 @@ ol {
 
 img {
   display: block;
+}
+
+:root {
+  --Dark: #2e2f42;
+  --Primary-Brand: #4d5ae5;
+  --Light: #f4f4fd;
+  --Accent: #e7e9fc;
+  --Text: #434455;
+  --Pressed-State: #404bbf;
 }
 
 /* цвет основного текста  NAVY BLUE color: #2E2F42; */
