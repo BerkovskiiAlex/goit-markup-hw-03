@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
+  margin: 0px;
+  max-width: 1440px;
 }
 
 p,
@@ -41,19 +43,15 @@ img {
 /* вторичный цвет фона CORNFLOWER   #E7E9FC */
 /* цвет OCEAN   #404BBF */
 
-/*--------- navigation -------*/
-.logo {
-  color: var(--Primary-Brand);
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
-.logo.list {
-  text-decoration: none;
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding: 0 15px;
+  outline: 1px solid red;
+
 }
 
 .link {
@@ -64,6 +62,48 @@ img {
   list-style: none;
 }
 
+/* --------------------HEADER----------------- */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.container>.navigation {
+  display: flex;
+}
+
+.logo {
+  color: var(--Primary-Brand);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.logo-web {
+  color: var(--Dark);
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
+}
+
+
 .nav-link {
   font-family: "Roboto",
     sans-serif;
@@ -73,13 +113,22 @@ img {
   letter-spacing: 0.02em;
   color: var(--Dark);
   list-style: none;
+  display: flex;
+}
+
+.adress-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+
+
 }
 
 .link:hover,
 .link:focus {
   color: var(--Pressed-State);
 }
-
 
 
 /*---------- Adress -------*/
@@ -89,18 +138,35 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Text);
+
 }
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 
-.logo-web {
-  color: var(--Dark);
+.adress-container {
+  display: flex;
+
 }
 
 
 /*--------- Hero ----------*/
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .hero {
   background-color: var(--Dark);
