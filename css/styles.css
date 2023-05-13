@@ -172,6 +172,12 @@ body {
 
 
 .container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   width: 1158px;
 
@@ -208,14 +214,7 @@ body {
   border-bottom: 1px solid #E7E9FC
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+.header-container {}
 
 /* .header-container-portfolio {
   display: flex;
