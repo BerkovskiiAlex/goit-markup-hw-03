@@ -134,7 +134,9 @@ table {
   border-spacing: 0;
 }
 
-
+img {
+  display: block;
+}
 
 
 
@@ -173,7 +175,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   /* outline: 1px solid red; */
 }
 
@@ -201,12 +203,15 @@ body {
 
 /* --------------------HEADER----------------- */
 
+.header {
+  border-bottom: 1px solid #E7E9FC
+}
+
 .header-container {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #E7E9FC
 }
 
 /* .header-container-portfolio {
