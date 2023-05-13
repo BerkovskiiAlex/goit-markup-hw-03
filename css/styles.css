@@ -462,12 +462,9 @@ body {
 
 /* ----------------footer------------ */
 
-.footer-logo {
-  display: block;
-  margin-bottom: 16px;
-}
 
-.logo-footer {
+
+.footer-logo {
   color: var(--Primary-Brand);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -475,7 +472,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
+  margin-bottom: 16px;
 }
+
+
 
 .footer {
   background-color: #2e2f42;
