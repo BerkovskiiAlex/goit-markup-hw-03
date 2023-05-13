@@ -174,7 +174,7 @@ body {
   margin-right: auto;
   width: 1158px;
   padding: 0 15px;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .link {
@@ -496,6 +496,11 @@ body {
   color: #ffffff;
   background-color: var(--Pressed-State);
 
+}
+
+.button-list {
+  display: flex;
+  gap: 24px;
 }
 
 .benefits-text-portfolio {
