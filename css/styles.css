@@ -504,9 +504,7 @@ body {
 /*----------- Portfolio main ----------*/
 
 .portfolio {
-  margin-top: 96px;
-
-
+  padding: 96px 0 120px;
 }
 
 .portfolio-btn {
