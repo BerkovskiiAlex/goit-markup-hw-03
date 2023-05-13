@@ -207,6 +207,8 @@ body {
 /* --------------------HEADER----------------- */
 
 .header {
+  padding-left: 15px;
+  padding-right: 15px;
   border-bottom: 1px solid #E7E9FC
 }
 
@@ -215,8 +217,7 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
+
 }
 
 /* .header-container-portfolio {
